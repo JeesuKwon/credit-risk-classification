@@ -1,5 +1,8 @@
 # credit-risk-classification
 
+![image](https://github.com/JeesuKwon/credit-risk-classification/assets/157546001/b57e32bd-db5d-4793-bc71-b66a20419dc1)
+
+
 # Background
 
 In this Challenge, you’ll use various techniques to train and evaluate a model based on loan risk. You’ll use a dataset of historical lending activity from a peer-to-peer lending services company to build a model that can identify the creditworthiness of borrowers
@@ -45,3 +48,18 @@ Structure your report by using the report template that Starter_Code.zip include
 2. The results: Using a bulleted list, describe the accuracy score, the precision score, and recall score of the machine learning model.
 3. A summary: Summarize the results from the machine learning model. Include your justification for recommending the model for use by the company. If you don’t recommend the model, justify your reasoning.
 
+
+# Results
+* Overall Accuracy : 99%
+* Healthy Loan
+  - Precision : 100%
+  - Recall : 100%
+  - F1-score : 100%
+* High-rist Loan
+  - Precision : 87%
+  - Recall : 89%
+  - F1-score : 88%
+
+
+# Summary
+The logistic regression model predicts a healthy, low-risk loan with 100% precision. It predicts a high-risk loan with lower precision at 87% because it is imbalanced dataset with only 625 supports which is much smaller than dataset for 0 with 18759 supports. The balanced accuracy of the model is 99%.
